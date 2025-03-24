@@ -1,0 +1,198 @@
+[
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Western Union",
+        "buy_rate": 3.65,
+        "sell_rate": 3.677
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "CambiaFX",
+        "buy_rate": 3.647,
+        "sell_rate": 3.678
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Dichikash",
+        "buy_rate": 3.657,
+        "sell_rate": 3.677
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Okane",
+        "buy_rate": 3.64,
+        "sell_rate": 3.685
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "cambiosol",
+        "buy_rate": 3.657,
+        "sell_rate": 3.67
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Dolarex",
+        "buy_rate": 3.6,
+        "sell_rate": 3.7
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Yanki",
+        "buy_rate": 3.645,
+        "sell_rate": 3.675
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "vip capital",
+        "buy_rate": 0,
+        "sell_rate": 0
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Cambio Mundial",
+        "buy_rate": 3.645,
+        "sell_rate": 3.675
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Dollar House",
+        "buy_rate": 3.656,
+        "sell_rate": 3.666
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Money House",
+        "buy_rate": 3.655,
+        "sell_rate": 3.689
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Instakash",
+        "buy_rate": 3.655,
+        "sell_rate": 3.668
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "DLS Money",
+        "buy_rate": 3.65,
+        "sell_rate": 3.67
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Cambio Mas",
+        "buy_rate": 3.653,
+        "sell_rate": 3.669
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Tu Cambista",
+        "buy_rate": 3.654,
+        "sell_rate": 3.671
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "kambio.online",
+        "buy_rate": 3.658,
+        "sell_rate": 3.668
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Rextie",
+        "buy_rate": 3.644,
+        "sell_rate": 3.678
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "chapacambio",
+        "buy_rate": 3.652,
+        "sell_rate": 3.672
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "inka money",
+        "buy_rate": 3.656,
+        "sell_rate": 3.67
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Perú dolar",
+        "buy_rate": 3.64,
+        "sell_rate": 3.68
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Cambio Digital",
+        "buy_rate": 3.65,
+        "sell_rate": 3.672
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "sr Cambio",
+        "buy_rate": 3.64,
+        "sell_rate": 3.68
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "exchange_house",
+        "name": "Hir Power",
+        "buy_rate": 3.64,
+        "sell_rate": 3.67
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "bank",
+        "name": "bbva",
+        "buy_rate": 3.589,
+        "sell_rate": 3.739
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "bank",
+        "name": "Interbank",
+        "buy_rate": 3.646,
+        "sell_rate": 3.683
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "bank",
+        "name": "nacion",
+        "buy_rate": 3.63,
+        "sell_rate": 3.7
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "bank",
+        "name": "scotiabank",
+        "buy_rate": 3.646,
+        "sell_rate": 3.678
+    },
+    {
+        "timestamp": "2025-03-12 21:49:55",
+        "type": "bank",
+        "name": "bcp",
+        "buy_rate": 3.614,
+        "sell_rate": 3.71
+    }
+]
