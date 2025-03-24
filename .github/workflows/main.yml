@@ -1,0 +1,32 @@
+name: Run Spider Hourly
+
+on:
+  schedule:
+    - cron: '0 8-17 * * *'  # Runs every hour from 8 AM to 5 PM (UTC-5)
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  spider:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install scrapy pymongo python-dotenv
+    
+    - name: Run Spider
+      env:
+        MONGO_URI: ${{ secrets.MONGO_URI }}
+        MONGO_DATABASE: ${{ secrets.MONGO_DATABASE }}
+        MONGO_COLLECTION: ${{ secrets.MONGO_COLLECTION }}
+      run: |
+        cd playground
+        scrapy crawl exchange_rates
