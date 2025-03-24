@@ -29,4 +29,4 @@ jobs:
         MONGO_COLLECTION: ${{ secrets.MONGO_COLLECTION }}
       run: |
         cd playground
-        scrapy crawl exchange_rates
+        scrapy crawl exchange
