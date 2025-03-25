@@ -73,24 +73,27 @@ class MongoDBPipeline:
 
     def process_item(self, item, spider):
         # Create new SKU
-        new_sku = {
-            "store": item['name'],
-            "price_card": item['buy_rate'],
-            "price": item['sell_rate'],
-            "updated": item['timestamp'],
-            "url": item['link']
-        }
+        if item["buy_rate"] and item["sell_rate"]:
+            new_sku = {
+                "store": item['name'],
+                "price_card": item['buy_rate'],
+                "price": item['sell_rate'],
+                "updated": item['timestamp'],
+                "url": item['link']
+            }
 
-        # First, remove any existing SKU with the same store
-        self.db[self.mongo_collection].update_one(
-            {"_id": self.dolar_id},
-            {"$pull": {"skus": {"store": item['name']}}}
-        )
+            # First, remove any existing SKU with the same store
+            self.db[self.mongo_collection].update_one(
+                {"_id": self.dolar_id},
+                {"$pull": {"skus": {"store": item['name']}}}
+            )
 
-        # Then, add the new SKU
-        self.db[self.mongo_collection].update_one(
-            {"_id": self.dolar_id},
-            {"$push": {"skus": new_sku}}
-        )
+            # Then, add the new SKU
+            self.db[self.mongo_collection].update_one(
+                {"_id": self.dolar_id},
+                {"$push": {"skus": new_sku}}
+            )
 
-        return item
+            return item
+        else:
+            return None
