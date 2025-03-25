@@ -77,7 +77,8 @@ class MongoDBPipeline:
             "store": item['name'],
             "price_card": item['buy_rate'],
             "price": item['sell_rate'],
-            "updated": item['timestamp']
+            "updated": item['timestamp'],
+            "url": item['link']
         }
 
         # First, remove any existing SKU with the same store
