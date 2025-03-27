@@ -25,7 +25,8 @@ class ExchangeRateSpider(scrapy.Spider):
             urlchange=item.css("div a.Button_button_change__PYUxL::attr(href)").get()
             urlchange=urlchange.split("?")[0]
             if name and len(rates) >= 2:
-
+                if name=="Perú dolar":
+                    name="Peru dolar"
                 try:
                     yield {
                         'timestamp': timestamp,
