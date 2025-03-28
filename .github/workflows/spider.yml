@@ -2,7 +2,7 @@ name: Run Spider Hourly
 
 on:
   schedule:
-    - cron: '0 13-23 * * *'  # Runs every hour from 8 AM to 5 PM (UTC-5)
+    - cron: '*/15 13-23 * * *'  # Runs every 15 minutes from 13:00 to 23:00 UTC (8:00 AM to 6:00 PM Lima time)
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
